@@ -200,10 +200,10 @@ servicejobs:
   resources:
     requests:
       cpu: 100m
-      memory: 248Mi
+      memory: 512Mi
     limits:
-      cpu: 100m
-      memory: 372Mi
+      cpu: 200m
+      memory: 1024Mi
   jvmArgs: ""
   ## External environment variables
   ##
